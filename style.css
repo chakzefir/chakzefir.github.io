@@ -2,9 +2,16 @@ body{
     overflow: hidden;
     /*font-family: 'Titillium Web', sans-serif;*/
     font-family: 'Anonymous Pro', sans-serif;
+    color: white;
 
 }
-
+a{
+    text-decoration: none;
+    color: white;
+}
+a:visited{
+    color: white;
+}
 
 
 .bg-vid,.blackout{
@@ -16,7 +23,6 @@ body{
 .bg-vid{
     z-index: -2;
 }
-
 .blackout{
     z-index: -1;
     height: 100%;
@@ -25,31 +31,39 @@ body{
 }
 
 
+
 .content{
     margin-top: 40px;
     text-align: center;
 }
 
-.content h1 {
-    font-size: 48px;
+    .content h1 {
+        font-size: 48px;
+    }
+
+        .content h1 .who:after {
+            content: '|';
+            display: inline-block;
+            -webkit-animation: caret .75s infinite;
+        }
+
+        @-webkit-keyframes caret{
+            from{opacity: 0;}
+            to{opacity: 1;}
+        }
+        @-moz-keyframes caret{
+            from{opacity: 0;}
+            to{opacity: 1;}
+        }
+        @keyframes caret{
+            from{opacity: 0;}
+            to{opacity: 1;}
+        }
+
+
+.contacts-list .item{
     color: white;
-}
-
-.content h1 .who:after {
-    content: '|';
+    font-size: 48px;
     display: inline-block;
-    -webkit-animation: caret .75s infinite;
-}
-
-@-webkit-keyframes caret{
-    from{opacity: 0;}
-    to{opacity: 1;}
-}
-@-moz-keyframes caret{
-    from{opacity: 0;}
-    to{opacity: 1;}
-}
-@keyframes caret{
-    from{opacity: 0;}
-    to{opacity: 1;}
+    margin: 15px;
 }
