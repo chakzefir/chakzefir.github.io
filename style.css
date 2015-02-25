@@ -1,0 +1,55 @@
+body{
+    overflow: hidden;
+    /*font-family: 'Titillium Web', sans-serif;*/
+    font-family: 'Anonymous Pro', sans-serif;
+
+}
+
+
+
+.bg-vid,.blackout{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+}
+.bg-vid{
+    z-index: -2;
+}
+
+.blackout{
+    z-index: -1;
+    height: 100%;
+    opacity: .8;
+    background-color: black;
+}
+
+
+.content{
+    margin-top: 40px;
+    text-align: center;
+}
+
+.content h1 {
+    font-size: 48px;
+    color: white;
+}
+
+.content h1 .who:after {
+    content: '|';
+    display: inline-block;
+    -webkit-animation: caret .75s infinite;
+}
+
+@-webkit-keyframes caret{
+    from{opacity: 0;}
+    to{opacity: 1;}
+}
+@-moz-keyframes caret{
+    from{opacity: 0;}
+    to{opacity: 1;}
+}
+@keyframes caret{
+    from{opacity: 0;}
+    to{opacity: 1;}
+}
