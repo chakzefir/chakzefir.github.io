@@ -1,4 +1,4 @@
-body{
+html,body{
     overflow: hidden;
     /*font-family: 'Titillium Web', sans-serif;*/
     font-family: 'Anonymous Pro', sans-serif;
@@ -8,17 +8,16 @@ body{
 a{
     text-decoration: none;
     color: white;
-}
-a:visited{
-    color: white;
+    -webkit-transition: color .33s
 }
 
 
 .bg-vid,.blackout{
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     width: 100vw;
+    overflow: hidden;
 }
 .bg-vid{
     z-index: -2;
@@ -60,10 +59,29 @@ a:visited{
             to{opacity: 1;}
         }
 
+    .evil-dev{
+        position: relative;
+    }
+
+    .icon-devil:before{
+        position: absolute;
+        right: 80px;
+        top: 17px;
+        /*font-size: 22px;*/
+        font-size: 0;
+    }
 
 .contacts-list .item{
     color: white;
     font-size: 48px;
     display: inline-block;
     margin: 15px;
+}
+.contact:before{
+    -webkit-transition: color .33s ease-out;
+    transition: color .33s ease-out;
+}
+.contact:hover:before, .contact:focus:before, .contact:active:before {
+    color: black;
+    text-shadow: 0 0 30px white;
 }

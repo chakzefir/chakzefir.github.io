@@ -13,6 +13,12 @@
       "src": "fontelico"
     },
     {
+      "uid": "f0c301ac841dafc38d8eb1b933fc73e5",
+      "css": "spin2",
+      "code": 59413,
+      "src": "fontelico"
+    },
+    {
       "uid": "bf882b30900da12fca090d9796bc3030",
       "css": "mail",
       "code": 59396,
@@ -22,6 +28,12 @@
       "uid": "31951fbb9820ed0690f675b3d495c8da",
       "css": "chat-empty",
       "code": 59395,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "2c5055a9c9723725f49f0593a08535af",
+      "css": "meh",
+      "code": 59397,
       "src": "fontawesome"
     },
     {
