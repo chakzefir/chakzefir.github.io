@@ -1,5 +1,4 @@
 html,body{
-    overflow: hidden;
     /*font-family: 'Titillium Web', sans-serif;*/
     font-family: 'Anonymous Pro', sans-serif;
     color: white;
@@ -8,9 +7,9 @@ html,body{
 a{
     text-decoration: none;
     color: white;
-    -webkit-transition: color .33s
+    -webkit-transition: all .23s linear;
+    transition: all .23s linear
 }
-
 
 .bg-vid,.blackout{
     position: fixed;
@@ -32,16 +31,17 @@ a{
 
 
 .content{
-    margin-top: 40px;
+    margin: 40px 0;
     text-align: center;
 }
 
-    .content h1 {
+    .content .head-1 {
         font-size: 48px;
     }
 
-        .content h1 .who:after {
+        .content .head-1 .who:after {
             content: '|';
+            color: #CF000F;
             display: inline-block;
             -webkit-animation: caret .75s infinite;
         }
@@ -59,29 +59,49 @@ a{
             to{opacity: 1;}
         }
 
-    .evil-dev{
-        position: relative;
-    }
-
-    .icon-devil:before{
-        position: absolute;
-        right: 80px;
-        top: 17px;
-        /*font-size: 22px;*/
-        font-size: 0;
-    }
 
 .contacts-list .item{
     color: white;
     font-size: 48px;
     display: inline-block;
-    margin: 15px;
+    margin: 30px 15px 0;
 }
 .contact:before{
-    -webkit-transition: color .33s ease-out;
-    transition: color .33s ease-out;
+    -webkit-transition: all .23s linear;
+    transition: all .23s linear;
 }
 .contact:hover:before, .contact:focus:before, .contact:active:before {
     color: black;
     text-shadow: 0 0 30px white;
+}
+
+.portfolio-list .item .desc{
+    font-size: 14px;
+}
+
+.skills-list .item, .portfolio-list .item{
+    margin: 15px 0;
+    font-size: 18px;
+}
+
+
+.skills-list .item a, .portfolio-list .item a{
+    color: #CF000F;
+}
+
+.skills-list .item.icon-gulp {
+    margin: -10px 0 15px;
+}
+
+
+.skills-list .item a:hover, .portfolio-list .item a:hover{
+    color: black;
+    text-shadow: 0 0 1px white;
+}
+
+.head-2{
+    margin-top: 40px;
+    font-size: 32px;
+    display: inline-block;
+    border-bottom: 1px solid #CF000F;
 }

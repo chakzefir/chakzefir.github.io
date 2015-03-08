@@ -7,12 +7,6 @@
   "ascent": 850,
   "glyphs": [
     {
-      "uid": "4dd56d61fd0dab19277824da301424b3",
-      "css": "emo-devil",
-      "code": 59392,
-      "src": "fontelico"
-    },
-    {
       "uid": "f0c301ac841dafc38d8eb1b933fc73e5",
       "css": "spin2",
       "code": 59413,
@@ -25,28 +19,10 @@
       "src": "fontawesome"
     },
     {
-      "uid": "31951fbb9820ed0690f675b3d495c8da",
-      "css": "chat-empty",
-      "code": 59395,
-      "src": "fontawesome"
-    },
-    {
       "uid": "2c5055a9c9723725f49f0593a08535af",
       "css": "meh",
       "code": 59397,
       "src": "fontawesome"
-    },
-    {
-      "uid": "b7a336095aa4535c3689cb557edf23db",
-      "css": "monitor",
-      "code": 59406,
-      "src": "entypo"
-    },
-    {
-      "uid": "767fede84586366cd7d6c835be745454",
-      "css": "mobile",
-      "code": 59407,
-      "src": "entypo"
     },
     {
       "uid": "32b4054f35918992f723e39f4095f005",
@@ -61,28 +37,22 @@
       "src": "entypo"
     },
     {
-      "uid": "d94334f23acba022bfd68e49d76b31bb",
-      "css": "github-1",
-      "code": 59408,
+      "uid": "91daf8fde1042a363514ca7e42d89570",
+      "css": "github-circled",
+      "code": 59398,
       "src": "entypo"
     },
     {
-      "uid": "bc50457410acf467b8b5721240768742",
-      "css": "facebook-1",
-      "code": 59405,
+      "uid": "8354734770d837204e6a004885240d2e",
+      "css": "skype-circled",
+      "code": 59414,
       "src": "entypo"
     },
     {
-      "uid": "ae49d5a5d0c2f7253f375bde5f0da2d2",
-      "css": "lastfm",
-      "code": 59409,
-      "src": "entypo"
-    },
-    {
-      "uid": "28ccaf022b8363aeaa5b86f66e1f5173",
-      "css": "skype-2",
-      "code": 59410,
-      "src": "entypo"
+      "uid": "m3m8301t2xdy30x4lp7txm0vztl67tcl",
+      "css": "mobile",
+      "code": 59404,
+      "src": "modernpics"
     },
     {
       "uid": "d4d52a448819e8d5e849b8126416b640",
@@ -97,15 +67,15 @@
       "src": "zocial"
     },
     {
-      "uid": "0636c283a9822288a767609062bbf4a4",
-      "css": "wordpress",
-      "code": 59404,
+      "uid": "9bba5df43e4e9419975336161e1810c3",
+      "css": "github-1",
+      "code": 59395,
       "src": "zocial"
     },
     {
-      "uid": "c99e966e3d22ec0b9d8678fd524e5512",
-      "css": "facebook",
-      "code": 59399,
+      "uid": "7cb7e246fd23672429db603c0077dc79",
+      "css": "mail-circled",
+      "code": 59405,
       "src": "elusive"
     },
     {
@@ -121,9 +91,9 @@
       "src": "elusive"
     },
     {
-      "uid": "34cfa573b7d6c70c298dfad4cac4d466",
-      "css": "vkontakte-1",
-      "code": 59394,
+      "uid": "26969cfbd811730075e4c657cc9fda2a",
+      "css": "twitter",
+      "code": 59399,
       "src": "elusive"
     },
     {
@@ -131,6 +101,18 @@
       "css": "w3c",
       "code": 59393,
       "src": "elusive"
+    },
+    {
+      "uid": "c72edf6fd8549ee6b7578254145715d5",
+      "css": "wordpress-1",
+      "code": 59392,
+      "src": "elusive"
+    },
+    {
+      "uid": "e92e6cad2da0ee4bc374a1ef4c6ab12b",
+      "css": "terminal",
+      "code": 59394,
+      "src": "websymbols"
     }
   ]
 }
